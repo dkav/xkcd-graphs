@@ -1,7 +1,7 @@
 # xkcd Graphs
 xkcd styled graphs created in d3, Python and R.
 
-d3 graph can be viewed on [bl.ocks.org](//bl.ocks.org/dkav/2f55cb1ad8f8ca2eba7d30fdf091278a).
+d3 graph can be viewed on [bl.ocks.org](//bl.ocks.org/dkav/34c576d7cc678e37b8dde755a0673ed6).
 
 Python and R graphs are coded within a Jupyter notebook.
 
