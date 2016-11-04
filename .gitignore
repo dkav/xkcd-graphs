@@ -1,1 +1,9 @@
+# pyenv
 .python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.RHistory
+
