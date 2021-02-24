@@ -11,10 +11,10 @@ pkgTest <- function(pkg) {
 # Install xkcd font
 # download.file("http://simonsoftware.se/other/xkcd.ttf", dest="xkcd.ttf", mode="wb")
 system("cp xkcd.ttf ~/Library/Fonts")
-system("rm xkcd.ttf")
+# system("rm xkcd.ttf")
 pkgTest("sysfonts")
 library(sysfonts)
-stopifnot("xkcd.ttf" %in% font.files())
+stopifnot("xkcd.ttf" %in% font_files())
 
 # Setup font for R
 pkgTest("extrafont")
